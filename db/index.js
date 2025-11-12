@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const zod = require('zod');
 
 // Connect to MongoDB
-mongoose.connect("mongodb+srv://admin:admin123456789@cluster0.mlaafeg.mongodb.net/user_app")
+mongoose.connect("mongodb+srv://<username>:<password>@cluster0.mlaafeg.mongodb.net/user_app")
 
 // Define schemas
 
