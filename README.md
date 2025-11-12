@@ -85,7 +85,37 @@ mongoose.connect("mongodb+srv://<username>:<password>@cluster0.mlaafeg.mongodb.n
 ```bash
 node index.js
 ```
-The server wull run on http://localhost:3000
+The server wull run on `http://localhost:3000`
+
+---
+
+## Usage
+You can use **Postman** or **cURL** to test the API denpoints.
+all sensitive routes require a **JWT token** in the `Authorization`.
+
+---
+
+## API Endpoints
+
+### Admin Routes
+
+| Method | Endpoint         | Description                  |
+|--------|-----------------|------------------------------|
+| POST   | `/admin/signup`  | Create a new admin           |
+| POST   | `/admin/signin`  | Admin login, returns JWT     |
+| POST   | `/admin/courses` | Create a new course (auth)  |
+| GET    | `/admin/courses` | Get all courses (auth)      |
+
+### User Routes
+
+| Method | Endpoint                  | Description                     |
+|--------|---------------------------|---------------------------------|
+| POST   | `/user/signup`            | Create a new user               |
+| POST   | `/user/signin`            | User login, returns JWT         |
+| GET    | `/user/courses`           | Get all available courses       |
+| POST   | `/user/courses/:courseID` | Purchase a course (auth)       |
+| GET    | `/user/purchasedCourses`  | Get all purchased courses (auth) |
+
 
 
 
