@@ -4,7 +4,7 @@
 
 ---
 
-![last commit](https://img.shields.io/github/last-commit/Tilak-csd/express-course-management?style=flat-square) 
+![last commit](https://img.shields.io/github/last-commit/Tilak-csd/express-course-management?style=flat-square)
 ![javascript](https://img.shields.io/badge/javascript-100.0%25-yellow?style=flat-square) 
 ![languages](https://img.shields.io/badge/languages-JavaScript-blue?style=flat-square)
 
