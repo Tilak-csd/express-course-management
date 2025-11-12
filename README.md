@@ -36,7 +36,7 @@
 ---
 
 ## File Structure
-'''
+```bash
 express-course-management/
 │
 ├── db/
@@ -54,7 +54,7 @@ express-course-management/
 ├── package.json
 ├── LICESNE
 └── README.md
-'''
+```
 ---
 
 ## Installation
@@ -71,6 +71,7 @@ express-course-management/
 ```bash
 git clone https://github.com/<your-username>/express-course-management.git
 cd express-course-management
+```
 
 
 
