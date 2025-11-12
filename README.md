@@ -19,3 +19,58 @@
   <a href="https://www.javascript.com/"><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript" /></a>
   <a href="https://github.com/colinhacks/zod"><img src="https://img.shields.io/badge/Zod-000000?style=flat-square" /></a>
   <a href="https://jwt.io/"><img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=json-web-tokens" /></a>
+
+---
+
+## Features
+
+- Admin signup and signin
+- User signup and signin
+- Create and list courses (admin)
+- View available courses (user)
+- Purchase courses (user)
+- View purchased courses (user)
+- JWT-based authentication for admin and users
+- Input validation using Zod
+
+---
+
+## File Structure
+express-course-management/
+│
+├── db/
+│ └── index.js # Mongoose models and Zod validation schemas
+│
+├── middleware/
+│ ├── admin.js # Admin JWT auth middleware
+│ └── user.js # User JWT auth middleware
+│
+├── routes/
+│ ├── admin.js # Admin routes (signup, signin, create course, list courses)
+│ └── user.js # User routes (signup, signin, list courses, purchase courses)
+│
+├── index.js # Main server file
+├── package.json
+├── LICESNE
+└── README.md
+
+---
+
+## Installation
+
+### Prerequisites
+
+- Node.js (v18 or later recommended)
+- npm
+- MongoDB Atlas account or local MongoDB instance
+
+### Steps
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/<your-username>/express-course-management.git
+cd express-course-management
+
+
+
+
