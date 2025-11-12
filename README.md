@@ -36,6 +36,7 @@
 ---
 
 ## File Structure
+'''
 express-course-management/
 │
 ├── db/
@@ -53,7 +54,7 @@ express-course-management/
 ├── package.json
 ├── LICESNE
 └── README.md
-
+'''
 ---
 
 ## Installation
