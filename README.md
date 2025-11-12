@@ -67,13 +67,25 @@ express-course-management/
 
 ### Steps
 
-1. **Clone the repository**
+**1. Clone the repository**
 ```bash
 git clone https://github.com/Tilak-csd/express-course-management.git
 cd express-course-management
 ```
-
-
+**2. Install dependencies**
+```bash
+npm install
+```
+**3. Configure MongoDB**
+- Update the connection string in db/index.js
+```bash
+mongoose.connect("mongodb+srv://<username>:<password>@cluster0.mlaafeg.mongodb.net/user_app")
+```
+**4. Start the server**
+```bash
+node index.js
+```
+The server wull run on http://localhost:3000
 
 
 
