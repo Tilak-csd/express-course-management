@@ -116,6 +116,11 @@ all sensitive routes require a **JWT token** in the `Authorization`.
 | POST   | `/user/courses/:courseID` | Purchase a course (auth)       |
 | GET    | `/user/purchasedCourses`  | Get all purchased courses (auth) |
 
+---
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 
 
