@@ -69,9 +69,10 @@ express-course-management/
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/<your-username>/express-course-management.git
+git clone https://github.com/Tilak-csd/express-course-management.git
 cd express-course-management
 ```
+
 
 
 
